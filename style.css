@@ -8,3 +8,9 @@ button:hover{
     transform:scale(1.05);
 	transition: 0.2s;
 }
+.input{
+    padding: 10px;
+    background: rgb(157, 127, 204);
+    border-radius: 10px;
+    margin-right: 10px;
+}
