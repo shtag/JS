@@ -1,16 +1,16 @@
 button{
+    
     background: rgba(255, 0, 0, 0.541);
-    margin: 10px;
+    margin: 300px 700px;
     padding: 15px;
     border-radius: 15px;
 }
 button:hover{
-    transform:scale(1.05);
-	transition: 0.2s;
+    transform: scale(100, 1);
+	transition: 10s;
+    
 }
-.input{
-    padding: 10px;
-    background: rgb(157, 127, 204);
-    border-radius: 10px;
-    margin-right: 10px;
+button:active{
+    transform: scale(0.01, 0.01);
+	transition: 2s;
 }
